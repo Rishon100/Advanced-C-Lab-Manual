@@ -15,13 +15,20 @@ Else
 6.	Return 0
  
 Program:
-
-// Type your code here
-
+```
+#include<stdio.h>
+int main()
+{
+   int age;
+   scanf("%d",&age);
+   if(age<=6) printf("Vaccine Eligibility: No\n");
+   else printf("Vaccine Eligibility: Yes\n");
+}
+```
 
 Output:
+<img width="354" height="46" alt="image" src="https://github.com/user-attachments/assets/45c78907-bb99-4011-a5dd-9c8c1c1851da" />
 
-// paste the output screenshot
 
 
 Result:
